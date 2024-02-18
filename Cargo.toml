@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/word_counter0_backend"
+]
+resolver = "2"

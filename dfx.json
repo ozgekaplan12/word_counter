@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "word_counter0_backend": {
+      "candid": "src/word_counter0_backend/word_counter0_backend.did",
+      "package": "word_counter0_backend",
+      "type": "rust"
+    },
+    "word_counter0_frontend": {
+      "dependencies": [
+        "word_counter0_backend"
+      ],
+      "source": [
+        "src/word_counter0_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "word_counter0_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
